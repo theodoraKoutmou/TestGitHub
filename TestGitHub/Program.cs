@@ -15,13 +15,12 @@ namespace TestGitHub
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
+            Console.WriteLine("Hello");
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
-		//katiiii
-	    //asximo
     }
 }
