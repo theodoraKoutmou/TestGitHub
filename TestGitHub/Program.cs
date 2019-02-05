@@ -22,5 +22,6 @@ namespace TestGitHub
                 .UseStartup<Startup>()
                 .Build();
 		//katiiii
+	    //asximo
     }
 }
